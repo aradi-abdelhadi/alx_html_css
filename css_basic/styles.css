@@ -1,0 +1,51 @@
+/* styles.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Set a background color */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333; /* Set a background color for the header */
+    color: white; /* Set text color for the header */
+}
+
+.logo {
+    font-size: 1.5em; /* Increase the size of the logo */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: #fff; /* Set a background color for the main content area */
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer {
+    padding: 10px;
+    background-color: #333; /* Set a background color for the footer */
+    color: white; /* Set text color for the footer */
+    text-align: center;
+}
+
+/* Add any other styles you want */
+
