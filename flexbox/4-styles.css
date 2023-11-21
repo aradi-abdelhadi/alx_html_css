@@ -193,7 +193,6 @@
   list-style: none;
 }
   [class*='col-'] {
-    padding: 0;
     margin: 1rem;
   }
   
