@@ -1,0 +1,24 @@
+/* Add this CSS for Animations */
+
+/* General Animation Styles */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* What We Do Section Animation */
+.what-we-do .service.animated {
+  animation: fadeInUp 0.8s ease-in-out both;
+}
+
+/* Our Results Section Animation */
+.our-results .result.animated {
+  animation: fadeInUp 0.8s ease-in-out both;
+}
+
