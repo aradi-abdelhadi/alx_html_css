@@ -1,0 +1,194 @@
+/* Reset CSS - Example using Normalize.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('C:\Users\HP\AppData\Local\Temp\Temp1_d1597894d79386c83b9b.zip\images\headphones_hero_1.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f00;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* What We Do Section Styles */
+.what-we-do {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.what-we-do h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  margin-right: 20px;
+}
+
+/* Custom Font Icons */
+.custom-icon {
+  font-family: 'holberton-school-icon';
+  font-style: normal;
+}
+
+/* Specific Icons for Each Service */
+.icon-service1::before { content: '\e800'; }
+.icon-service2::before { content: '\e801'; }
+.icon-service3::before { content: '\e802'; }
+.icon-service4::before { content: '\e803'; }
+
+/* Rest of Your CSS Styles... */
+/* Our Results Section Styles */
+.our-results {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.our-results h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.metric {
+  text-align: center;
+}
+
+.percentage {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #f00; /* Adjust color based on your design */
+}
+
+.label {
+  display: block;
+  font-size: 1.2rem;
+  color: #555; /* Adjust color based on your design */
+}
+
+/* Rest of Your CSS Styles... */
+/* Contact Form Section Styles */
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Add animations and constraints as desired */
+
