@@ -1,5 +1,11 @@
 /* styles.css */
 
+/* Reset some default margin and padding on elements */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
@@ -9,7 +15,7 @@ body {
 header {
   background-color: #007bff;
   color: #fff;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -31,5 +37,206 @@ nav a {
   color: #fff;
 }
 
-/* Add more styles as needed */
+main section {
+  margin: 20px 0;
+}
+
+main section h1,
+main section h2,
+main section h3 {
+  color: #333;
+}
+
+main section div {
+  margin-bottom: 20px;
+}
+
+main section div img {
+  max-width: 100%;
+  height: auto;
+}
+
+main section div h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+main section div h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main section div p {
+  color: #555;
+}
+
+main section div button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+main section div button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for Quotes Section */
+main section blockquote {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+main section blockquote p {
+  margin-bottom: 10px;
+}
+
+main section blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+main section blockquote p:first-child::before {
+  content: '\201C';
+  font-size: 40px;
+  color: #007bff;
+  line-height: 0;
+  margin-right: 5px;
+}
+
+main section blockquote p:last-child::after {
+  content: '\201D';
+  font-size: 40px;
+  color: #007bff;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+/* Additional styles for Videos List Section */
+main section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+main section div div div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main section div div div img {
+  max-width: 100%;
+  height: auto;
+}
+
+main section div div div h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main section div div div p {
+  color: #555;
+}
+
+main section div div div div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section div div div div img {
+  max-width: 30px;
+  height: auto;
+}
+
+main section div div div div p {
+  margin-left: 10px;
+}
+
+/* Additional styles for Membership Section */
+main section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+main section div div div {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main section div div div img {
+  max-width: 100%;
+  height: auto;
+}
+
+main section div div div h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main section div div div p {
+  color: #555;
+}
+
+main section div div div button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+main section div div div button:hover {
+  background-color: #0056b3;
+}
+
+/* Additional styles for FAQ Section */
+main section div div div div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+main section div div div div div {
+  flex: 0 0 48%;
+}
+
+main section div div div div div h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main section div div div div div p {
+  color: #555;
+}
+
+/* Additional styles for Footer Section */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div p {
+  font-size: 14px;
+}
+
+footer div a img {
+  max-width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
 
